@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Shader
-  m_Shader: {fileID: -6465566751694194690, guid: 83fd669231aeced4f99a3936b185aff5, type: 3}
-  m_Parent: {fileID: -876546973899608171, guid: 83fd669231aeced4f99a3936b185aff5, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 1909647ef62beaf4983acc4c06696d47, type: 3}
+  m_Parent: {fileID: -876546973899608171, guid: 1909647ef62beaf4983acc4c06696d47, type: 3}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -18,13 +18,15 @@ Material:
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
-  disabledShaderPasses: []
+  disabledShaderPasses:
+  - MOTIONVECTORS
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
     m_Ints: []
-    m_Floats: []
+    m_Floats:
+    - _QueueControl: 0
     m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1
